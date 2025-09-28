@@ -1,0 +1,649 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Business Understanding &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'business-understanding';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="data-understanding.html" />
+    <link rel="prev" title="Profil Saya" href="intro.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/pas-photo.jpeg" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="_static/pas-photo.jpeg" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Profil Saya
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Business Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="eksplorasi-data.html">Eksplorasi Data</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fbusiness-understanding.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/business-understanding.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Business Understanding</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#komponen-inti-dan-pertanyaan-kunci-dalam-business-understanding">Komponen Inti dan Pertanyaan Kunci dalam Business Understanding</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menentukan-tujuan-bisnis-determine-business-objectives">1. Menentukan Tujuan Bisnis (Determine Business Objectives)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menilai-situasi-saat-ini-assess-situation">2. Menilai Situasi Saat Ini (Assess Situation)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menerjemahkan-tujuan-bisnis-menjadi-tujuan-sains-data-data-mining-data-science-goals">3. Menerjemahkan Tujuan Bisnis menjadi Tujuan Sains Data (Data Mining/Data Science Goals)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mendefinisikan-kriteria-kesuksesan-define-success-criteria">4. Mendefinisikan Kriteria Kesuksesan (Define Success Criteria)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#siapa-saja-yang-terlibat">Siapa Saja yang Terlibat?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#output-deliverable-dari-fase-business-understanding">Output/Deliverable dari Fase Business Understanding</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="business-understanding">
+<h1>Business Understanding<a class="headerlink" href="#business-understanding" title="Link to this heading">#</a></h1>
+<p><strong>Business Understanding</strong> adalah fase awal dalam siklus hidup proyek sains data di mana fokus utamanya adalah memahami tujuan dan kebutuhan proyek dari perspektif bisnis. Tujuannya adalah untuk mengubah masalah bisnis yang seringkali abstrak (“Kita ingin meningkatkan penjualan”) menjadi definisi masalah sains data yang jelas, terukur, dan dapat ditindaklanjuti (“Buat model untuk memprediksi produk mana yang kemungkinan besar akan dibeli oleh pelanggan X jika kita mengirimkan email promosi”).</p>
+<section id="komponen-inti-dan-pertanyaan-kunci-dalam-business-understanding">
+<h2>Komponen Inti dan Pertanyaan Kunci dalam Business Understanding<a class="headerlink" href="#komponen-inti-dan-pertanyaan-kunci-dalam-business-understanding" title="Link to this heading">#</a></h2>
+<p>Fase ini dapat dipecah menjadi beberapa langkah atau komponen utama. Untuk setiap komponen, ada serangkaian pertanyaan kunci yang harus dijawab.</p>
+<p>Mari kita gunakan studi kasus agar lebih mudah dipahami: <strong>Sebuah perusahaan telekomunikasi (Telco) mengalami tingkat perpindahan pelanggan (churn rate)</strong> yang tinggi.</p>
+</section>
+<section id="menentukan-tujuan-bisnis-determine-business-objectives">
+<h2>1. Menentukan Tujuan Bisnis (Determine Business Objectives)<a class="headerlink" href="#menentukan-tujuan-bisnis-determine-business-objectives" title="Link to this heading">#</a></h2>
+<p>Ini adalah gambaran besar. Apa yang ingin dicapai oleh perusahaan secara strategis?</p>
+<ul class="simple">
+<li><p><strong>Apa masalah utama yang dihadapi bisnis?</strong></p>
+<ul>
+<li><p>Contoh Telco: “Kami kehilangan terlalu banyak pelanggan ke pesaing setiap bulannya, yang menggerus pendapatan dan pangsa pasar kami.”</p></li>
+</ul>
+</li>
+<li><p><strong>Apa tujuan akhir dari proyek ini dari sudut pandang bisnis?</strong></p>
+<ul>
+<li><p>Contoh Telco: “Tujuan utamanya adalah <strong>mengurangi tingkat churn pelanggan sebesar 20%</strong> dalam enam bulan ke depan.”</p></li>
+</ul>
+</li>
+<li><p><strong>Bagaimana solusi dari proyek ini akan membantu perusahaan?</strong></p>
+<ul>
+<li><p>Contoh Telco: “Dengan mempertahankan lebih banyak pelanggan, kita dapat meningkatkan Customer Lifetime Value (CLV), menstabilkan pendapatan, dan mengurangi biaya akuisisi pelanggan baru yang mahal.”</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="menilai-situasi-saat-ini-assess-situation">
+<h2>2. Menilai Situasi Saat Ini (Assess Situation)<a class="headerlink" href="#menilai-situasi-saat-ini-assess-situation" title="Link to this heading">#</a></h2>
+<p>Ini adalah inventarisasi: apa yang kita miliki, apa yang kita ketahui, dan apa kendalanya?</p>
+<ul class="simple">
+<li><p><strong>Sumber Daya:</strong> Aset apa yang kita miliki? (manusia, data, infrastruktur)</p>
+<ul>
+<li><p>Contoh Telco: “Kita memiliki tim analis data, akses ke data warehouse yang berisi data demografi pelanggan, riwayat panggilan, penggunaan data internet, data tagihan, dan log keluhan pelanggan.”</p></li>
+</ul>
+</li>
+<li><p><strong>Batasan (Constraints):</strong> Apa saja batasan yang ada? (anggaran, waktu, regulasi)</p>
+<ul>
+<li><p>Contoh Telco: “Proyek ini harus memberikan hasil awal dalam 3 bulan. Kita juga harus mematuhi regulasi privasi data pelanggan (GDPR/UU PDP) dan tidak boleh menggunakan data pribadi yang sensitif.”</p></li>
+</ul>
+</li>
+<li><p><strong>Asumsi:</strong> Asumsi apa yang kita buat?</p>
+<ul>
+<li><p>Contoh Telco: “Kami berasumsi bahwa data yang ada cukup untuk mengidentifikasi pola perilaku pelanggan yang akan churn. Kami juga berasumsi bahwa tim marketing memiliki kapasitas untuk menindaklanjuti hasil dari model.”</p></li>
+</ul>
+</li>
+<li><p><strong>Risiko:</strong> Apa saja potensi masalah yang bisa menggagalkan proyek?</p>
+<ul>
+<li><p>Contoh Telco: “Risikonya adalah kualitas data yang buruk (banyak data hilang), atau model yang dihasilkan terlalu rumit untuk dijelaskan kepada tim marketing.”</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="menerjemahkan-tujuan-bisnis-menjadi-tujuan-sains-data-data-mining-data-science-goals">
+<h2>3. Menerjemahkan Tujuan Bisnis menjadi Tujuan Sains Data (Data Mining/Data Science Goals)<a class="headerlink" href="#menerjemahkan-tujuan-bisnis-menjadi-tujuan-sains-data-data-mining-data-science-goals" title="Link to this heading">#</a></h2>
+<p>Ini adalah langkah penerjemahan krusial. Bagaimana kita menggunakan data untuk mencapai tujuan bisnis?</p>
+<ul>
+<li><p><strong>Tujuan Bisnis:</strong> Mengurangi churn pelanggan.</p></li>
+<li><p><strong>Tujuan Sains Data:</strong> Ini harus lebih spesifik dan teknis.</p>
+<ul class="simple">
+<li><p>Contoh Telco (Terjemahan):</p></li>
+</ul>
+<ol class="arabic simple">
+<li><p><strong>“Membangun sebuah model klasifikasi</strong> yang dapat memprediksi probabilitas setiap pelanggan akan churn dalam 30 hari ke depan.”</p></li>
+<li><p><strong>“Mengidentifikasi faktor-faktor utama (key drivers)</strong> yang paling berpengaruh terhadap keputusan pelanggan untuk churn (misalnya, jumlah keluhan, kenaikan tagihan, kualitas jaringan).”</p></li>
+<li><p><strong>“Melakukan segmentasi pelanggan</strong> berdasarkan risiko churn mereka (risiko tinggi, sedang, rendah) untuk tindakan marketing yang lebih tertarget.”</p></li>
+</ol>
+</li>
+</ul>
+</section>
+<section id="mendefinisikan-kriteria-kesuksesan-define-success-criteria">
+<h2>4. Mendefinisikan Kriteria Kesuksesan (Define Success Criteria)<a class="headerlink" href="#mendefinisikan-kriteria-kesuksesan-define-success-criteria" title="Link to this heading">#</a></h2>
+<p>Bagaimana kita mengukur keberhasilan? Ini harus didefinisikan dari dua sisi: bisnis dan teknis.</p>
+<ul class="simple">
+<li><p><strong>Kriteria Kesuksesan Bisnis:</strong> Harus terukur dan terkait langsung dengan tujuan bisnis awal.</p>
+<ul>
+<li><p>Contoh Telco:</p>
+<ul>
+<li><p>“Tingkat churn bulanan berkurang setidaknya 15% pada kelompok pelanggan yang diberi perlakuan khusus berdasarkan hasil model.”</p></li>
+<li><p>“Tingkat keberhasilan kampanye retensi (misalnya, pelanggan menerima tawaran diskon dan tetap bertahan) meningkat sebesar 25%.”</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Kriteria Kesuksesan Teknis/Sains Data:</strong> Metrik untuk mengevaluasi performa model.</p>
+<ul>
+<li><p>Contoh Telco:</p>
+<ul>
+<li><p>“Model prediksi harus mencapai akurasi lebih dari 85%.”</p></li>
+<li><p>“Model harus memiliki <strong>Recall (Sensitivity)</strong> setidaknya 80% untuk kelas ‘churn’, yang berarti model harus mampu mengidentifikasi setidaknya 80 dari 100 pelanggan yang sebenarnya akan churn. Ini penting karena lebih merugikan jika kita gagal mengidentifikasi pelanggan yang akan pergi daripada salah mengira pelanggan setia akan pergi.”</p></li>
+<li><p>“Model harus dapat memberikan skor risiko untuk seluruh basis pelanggan dalam waktu kurang dari 24 jam.”</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="siapa-saja-yang-terlibat">
+<h2>Siapa Saja yang Terlibat?<a class="headerlink" href="#siapa-saja-yang-terlibat" title="Link to this heading">#</a></h2>
+<p>Fase ini sangat kolaboratif dan melibatkan berbagai pihak:</p>
+<ul class="simple">
+<li><p><strong>Pemangku Kepentingan Bisnis (Business Stakeholders):</strong> Manajer produk, kepala departemen marketing, direktur, dll. Mereka adalah pemilik masalah.</p></li>
+<li><p><strong>Pakar Domain (Subject Matter Experts - SMEs):</strong> Orang yang sangat memahami seluk-beluk operasional bisnis, misalnya staf layanan pelanggan senior yang tahu persis keluhan apa yang sering memicu churn.</p></li>
+<li><p><strong>Tim Sains Data (Data Scientists &amp; Analysts):</strong> Bertugas menerjemahkan masalah bisnis, memahami kelayakan teknis, dan merumuskan rencana proyek.</p></li>
+<li><p><strong>Tim IT/Data Engineering:</strong> Memberikan informasi mengenai ketersediaan, akses, dan kualitas data.</p></li>
+</ul>
+</section>
+<section id="output-deliverable-dari-fase-business-understanding">
+<h2>Output/Deliverable dari Fase Business Understanding<a class="headerlink" href="#output-deliverable-dari-fase-business-understanding" title="Link to this heading">#</a></h2>
+<p>Hasil akhir dari fase ini biasanya adalah sebuah dokumen formal yang disebut Project Charter atau <strong>Dokumen Lingkup Proyek</strong>. Dokumen ini merangkum semua poin di atas, termasuk:</p>
+<ol class="arabic simple">
+<li><p><strong>Latar Belakang Masalah (Background)</strong></p></li>
+<li><p><strong>Tujuan Bisnis (Business Objectives)</strong></p></li>
+<li><p><strong>Tujuan &amp; Ruang Lingkup Proyek Sains Data (Data Science Goals &amp; Scope)</strong></p></li>
+<li><p><strong>Kriteria Kesuksesan (Business &amp; Technical Success Criteria)</strong></p></li>
+<li><p><strong>Rencana Proyek Awal (Initial Project Plan):</strong> Garis besar tahapan, estimasi waktu, dan sumber daya yang dibutuhkan.</p></li>
+<li><p><strong>Identifikasi Risiko dan Rencana Mitigasi (Risks &amp; Mitigation Plan)</strong></p></li>
+<li><p><strong>Asumsi dan Batasan (Assumptions &amp; Constraints)</strong></p></li>
+</ol>
+<p>Dokumen ini menjadi “kontrak” dan panduan yang disetujui bersama oleh semua pihak sebelum proyek benar-benar melangkah ke fase pengumpulan data.</p>
+<p>Secara ringkas, fase <strong>Business Understanding</strong> adalah tentang bertanya “mengapa”, “apa”, dan “bagaimana” dari perspektif bisnis sebelum terjun ke dalam lautan data. Ini adalah proses investigasi yang memastikan bahwa pada akhir proyek, solusi yang dihasilkan tidak hanya canggih secara teknis, tetapi juga memberikan dampak nyata bagi bisnis.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Profil Saya</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="data-understanding.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">&lt;no title&gt;</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#komponen-inti-dan-pertanyaan-kunci-dalam-business-understanding">Komponen Inti dan Pertanyaan Kunci dalam Business Understanding</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menentukan-tujuan-bisnis-determine-business-objectives">1. Menentukan Tujuan Bisnis (Determine Business Objectives)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menilai-situasi-saat-ini-assess-situation">2. Menilai Situasi Saat Ini (Assess Situation)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menerjemahkan-tujuan-bisnis-menjadi-tujuan-sains-data-data-mining-data-science-goals">3. Menerjemahkan Tujuan Bisnis menjadi Tujuan Sains Data (Data Mining/Data Science Goals)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mendefinisikan-kriteria-kesuksesan-define-success-criteria">4. Mendefinisikan Kriteria Kesuksesan (Define Success Criteria)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#siapa-saja-yang-terlibat">Siapa Saja yang Terlibat?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#output-deliverable-dari-fase-business-understanding">Output/Deliverable dari Fase Business Understanding</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

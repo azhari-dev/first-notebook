@@ -6,7 +6,9 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Search - My sample book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>&lt;no title&gt; &#8212; My sample book</title>
   
   
   
@@ -55,12 +57,11 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'search';</script>
-  <script src="_static/searchtools.js"></script>
-  <script src="_static/language_data.js"></script>
-  <script src="searchindex.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'data-understanding';</script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="#" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Eksplorasi Data" href="eksplorasi-data.html" />
+    <link rel="prev" title="Business Understanding" href="business-understanding.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -92,7 +93,7 @@
     <div class="search-button__overlay"></div>
     <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
-      action="#"
+      action="search.html"
       method="get">
   <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search"
@@ -122,8 +123,6 @@
     <div class="bd-container__inner bd-page-width">
       
       
-      
-        
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -254,7 +253,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fsearch.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fdata-understanding.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -266,6 +265,54 @@
   </span>
 <span class="btn__text-container">Open issue</span>
 </a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/data-understanding.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
 </li>
       
   </ul>
@@ -307,7 +354,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -316,42 +365,78 @@ document.write(`
 </div>
               
               
-  <div class="bd-search-container">
-    <h1>Search</h1>
-    <noscript>
-      <div class="admonition error">
-        <p class="admonition-title">Error</p>
-        <p>Please activate JavaScript to enable the search functionality.</p>
-      </div>
-    </noscript>
-    
-<form class="bd-search d-flex align-items-center"
-      action="#"
-      method="get">
-  <i class="fa-solid fa-magnifying-glass"></i>
-  <input type="search"
-         class="form-control"
-         name="q"
-         id="search-input"
-         placeholder="Search this book..."
-         aria-label="Search this book..."
-         autocomplete="off"
-         autocorrect="off"
-         autocapitalize="off"
-         spellcheck="false"/>
-  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-    <div id="search-results"></div>
-  </div>
-  <script>
-    // Activate the search field on page load
-    let searchInput = document.querySelector("form.bd-search input");
-    if (searchInput) {
-        searchInput.focus();
-        searchInput.select();
-        console.log("[PST]: Set focus on search field.");
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1><no title></h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <p>Memahami Data: Fondasi Analisis di Power BI
+Pemahaman Data (Data Understanding) adalah tahap fundamental dalam siklus hidup ilmu data atau Knowledge Discovery in Databases (KDD). Tahap awal ini krusial karena bertujuan untuk mendapatkan pemahaman yang mendalam mengenai data sebelum melangkah ke analisis yang lebih kompleks. Keberhasilan keseluruhan proyek data mining sangat bergantung pada seberapa baik data dipahami di tahap ini.</p>
+<p>Berikut adalah rincian aktivitas utama dalam proses memahami data:</p>
+<ol class="arabic simple">
+<li><p>Pengumpulan Data (Data Collection)
+Aktivitas ini berfokus pada penghimpunan data dari berbagai sumber, baik itu database, file (seperti CSV), API, maupun sensor. Tujuannya adalah untuk memastikan semua data yang relevan dan dibutuhkan untuk analisis telah berhasil dikumpulkan.</p></li>
+<li><p>Pemrofilan Data (Data Profiling)
+Pada tahap ini, kita membuat ringkasan karakteristik dari setiap variabel. Ini mencakup identifikasi tipe data (misalnya, numerik atau kategorikal), rentang nilainya, dan distribusi frekuensinya. Selain itu, pemrofilan juga bertujuan untuk mengungkap hubungan awal antarvariabel, sering kali melalui analisis korelasi atau asosiasi.</p></li>
+<li><p>Analisis Korelasi dan Asosiasi
+Fungsi dari kegiatan ini adalah untuk mengukur secara statistik seberapa kuat hubungan antarvariabel. Koefisien korelasi seperti Pearson atau Spearman digunakan untuk mengidentifikasi hubungan linier, sementara teknik asosiasi dipakai untuk menemukan pola keterkaitan antara variabel-variabel kategorikal.</p></li>
+<li><p>Eksplorasi Data (Data Exploration)
+Eksplorasi data melibatkan penggunaan statistik deskriptif (seperti rata-rata, median, modus, dan standar deviasi) serta visualisasi data. Tujuannya adalah untuk memahami distribusi, mendeteksi pola, dan menggali wawasan awal dari dataset.</p></li>
+<li><p>Identifikasi Masalah Kualitas Data
+Langkah ini penting untuk mendeteksi berbagai anomali dalam data, yang meliputi:</p></li>
+</ol>
+<p>Data Hilang (Missing Values): Menemukan adanya sel atau entri yang kosong.</p>
+<p>Pencilan (Outliers): Mengidentifikasi nilai-nilai ekstrem yang bisa jadi merupakan anomali atau kesalahan input.</p>
+<p>Duplikasi Data: Menemukan adanya data atau baris yang identik.</p>
+<p>Inkonsistensi Data: Memeriksa ketidakseragaman format atau nilai dalam data.</p>
+<ol class="arabic simple" start="6">
+<li><p>Validasi Data
+Validasi bertujuan untuk memastikan dua hal utama:</p></li>
+</ol>
+<p>Kesesuaian data dengan konteks dan kebutuhan bisnis.</p>
+<p>Verifikasi bahwa data yang ada secara akurat merepresentasikan fenomena atau realitas yang sedang dianalisis.</p>
+<p>Manfaat Utama dari Pemahaman Data
+Proses pemahaman data yang solid memberikan berbagai keuntungan strategis, antara lain:</p>
+<p>Peningkatan Kualitas Data: Dengan mengenali masalah sejak dini, langkah-langkah pembersihan dan persiapan data menjadi jauh lebih efektif.</p>
+<p>Efisiensi Waktu dan Biaya: Mencegah kesalahan analisis yang mahal akibat penggunaan data yang berkualitas buruk.</p>
+<p>Pengambilan Keputusan yang Lebih Baik: Memberikan wawasan awal yang berharga untuk merumuskan hipotesis dan strategi analisis yang tepat.</p>
+<p>Peningkatan Akurasi Model: Data yang bersih dan dipahami dengan baik merupakan kunci untuk membangun model prediktif yang andal dan akurat.</p>
+<div class="toctree-wrapper compound">
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
     }
-  </script>
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
 
               
               
@@ -360,6 +445,24 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="business-understanding.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Business Understanding</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="eksplorasi-data.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Eksplorasi Data</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
